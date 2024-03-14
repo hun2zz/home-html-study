@@ -1,0 +1,101 @@
+@import url(../common.css);
+
+.container {
+  border: 2px double lightblue;
+  width: 60%;
+  margin: auto;
+  margin-top: 15px;
+  background: gray;
+  height: auto;
+  float: left;
+}
+/* 전체박스 */
+.container h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.7em;
+  background: lightgray;
+}
+
+.container h2 {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background: rgb(42, 38, 38);
+}
+/* 헤더부분 */
+
+.container .content-title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.container .content-title p {
+  /* border: 1px solid #000; */
+  float: left;
+  height: 240px;
+  margin-bottom: 15px;
+}
+.container .content-title .kiki {
+  float: left;
+  width: 23.75%;
+  border: 1px solid #000;
+  margin-left: 1%;
+  height: 340px;
+  font-size: 1.2em;
+}
+.container .content-title .kiki .pic1 {
+  background: url(../retry/tulip.jpg);
+  background-size: cover;
+  height: 45%;
+  border: 1px solid #000;
+  /* display: inline; */
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+.container .content-title .kiki .pic2 {
+  background: url(../retry/jebi.jpg);
+  background-size: cover;
+  height: 45%;
+  border: 1px solid #000;
+  /* display: inline; */
+  margin: 5px;
+  margin-bottom: 30px;
+}
+.container .content-title .kiki .pic3 {
+  background: url(../retry/hobak.jpg);
+  background-size: cover;
+  height: 45%;
+  border: 1px solid #000;
+  /* display: inline; */
+  margin: 5px;
+  margin-bottom: 30px;
+}
+.container .content-title .kiki .pic4 {
+  background: url(../retry/sunflower.jpg);
+  background-size: cover;
+  height: 45%;
+  border: 1px solid #000;
+  /* display: inline; */
+  margin: 5px;
+  margin-bottom: 30px;
+}
+.container .content-title .kiki .text {
+  /* border: 1px solid #000; */
+  padding: 0 10px;
+}
+
+.container .content-title .tulip {
+  background: red;
+}
+.container .content-title .jebi {
+  background: pink;
+}
+.container .content-title .hobak {
+  background: orange;
+}
+.container .content-title .sunflower {
+  background: yellow;
+}
