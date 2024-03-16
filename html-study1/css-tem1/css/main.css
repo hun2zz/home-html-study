@@ -149,7 +149,7 @@ section ul.sub-container {
   width: 74%;
   margin: 0 auto;
   /* background: tomato; */
-  border-bottom: 1px solid #000;
+  /* border-bottom: 1px solid #000; */
   margin-top: 50px;
 }
 
@@ -343,4 +343,63 @@ section.me #incruit-btn {
   position: absolute;
   left: 45%;
   bottom: 50px;
+}
+section.sns .title {
+  /* background: orange; */
+  padding-top: 120px;
+}
+
+/* section.sns .sub-container li {
+  float: left;
+  width: 100%;
+} */
+
+section.sns .sub-container li {
+  float: left;
+  width: 31.66666%;
+
+  /* background: orange; */
+}
+section.sns .sub-container li:nth-child(1) {
+  /* background: blue; */
+  margin-right: 2.5%;
+}
+section.sns .sub-container li:last-child {
+  /* background: blue; */
+  margin-left: 2.5%;
+  /* margin-right: 5%; */
+}
+section.sns .sub-container li a .img-box img {
+  width: 100%;
+  background: orange;
+  height: 200px;
+}
+section.sns .sub-container li .bottom {
+  padding: 15px;
+}
+section.sns .sub-container li .bottom .color {
+  padding: 5px;
+  padding-left: 8px;
+  color: orange;
+}
+section.sns .sub-container li .bottom p:nth-child(2) {
+  /* background: black; */
+  padding: 5px;
+  padding-left: 8px;
+  font-weight: 600px;
+}
+section.sns .sub-container li .bottom .time {
+  padding: 5px;
+  padding-left: 8px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  color: gray;
+}
+
+section.sns .sub-container li .bottom .time .far {
+  /* background: orange; */
+  padding-right: 10px;
+}
+
+footer {
 }
