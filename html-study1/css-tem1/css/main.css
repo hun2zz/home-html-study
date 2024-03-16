@@ -130,3 +130,77 @@ section.main .main-title .view:hover::after {
 }
 /* 메인 끝 */
 /* section > div.title 공통 style */
+
+section .title {
+  text-align: center;
+}
+
+section .title h2 {
+  font-size: 45px;
+  color: #111;
+  margin-bottom: 5px;
+}
+section .title p {
+  font-size: 18px;
+  color: #555;
+}
+
+section ul.sub-container {
+  width: 74%;
+  margin: 0 auto;
+  /* background: tomato; */
+  border-bottom: 1px solid #000;
+  margin-top: 50px;
+}
+
+section.about ul.sub-container li {
+  float: left;
+  width: 33.3333%;
+  /* background: orange; */
+  height: 430px;
+  margin-bottom: 15px;
+  /* padding: 15px; */
+}
+section.about ul.sub-container li .text {
+  padding: 16px;
+  font-size: 16px;
+}
+section.about ul.sub-container li .text h3 {
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+section.about ul.sub-container li .img-box img {
+  width: 100%;
+  transition: 0.6s;
+}
+
+section.about ul.sub-container li .img-box {
+  overflow: hidden;
+}
+section.about ul.sub-container li a:hover .img-box img {
+  transform: scale(1.2);
+}
+section.about ul.sub-container li .text p {
+  padding-bottom: 20px;
+}
+section.about ul.sub-container li .text .more {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-left: 40px;
+}
+section.about ul.sub-container li .text .more::before {
+  /* 도형안에 글씨 넣기 */
+  content: "→";
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #ff8342;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
