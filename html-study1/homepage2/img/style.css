@@ -18,6 +18,18 @@
   padding: 0;
   color: #000;
 }
+h1 {
+  font-size: 48px;
+  font-weight: 100;
+}
+.contents1 {
+  font-size: 20px;
+  font-weight: 200;
+}
+.value {
+  font-size: 24px;
+  font-weight: 400;
+}
 
 .intro {
   background: url(../img/qorud.png);
@@ -46,14 +58,14 @@
   margin-left: 84px;
   line-height: 86px;
 }
-.header .searchArea {
+.header .search_area {
   width: 300px;
   height: 40px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin-top: 24px;
 }
-.searchArea > form > input {
+.search_area > form > input {
   border: none;
   background: rgba(0, 0, 0, 0);
   width: 250px;
@@ -62,9 +74,53 @@
   padding: 15px;
 }
 
-.searchArea > form > span {
+.search_area > form > span {
   width: 50px;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
+}
+
+.intro_text > h1,
+.intro_text > h4 {
+  color: #fff;
+  /* background: blue; */
+}
+
+.intro_text {
+  /* background: blue; */
+  text-align: center;
+  margin: 230px auto 231px auto;
+}
+
+.amount {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  top: -66px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.amount > li {
+  flex: 1;
+  /* z-index: 9999; */
+  /* border: 1px solid #000; */
+  width: 320px;
+  height: 132px;
+  /* line-height: 132px; */
+  background: #fff;
+  /* background: blue; */
+}
+
+.amount li > div {
+  text-align: center;
+  color: #000;
+  height: 57px;
+  /* background: green; */
+  margin-top: 37px;
+  /* border-right: 1px solid gray; */
+}
+.amount li:not(:last-child) div {
+  border-right: 1px solid gray;
 }
