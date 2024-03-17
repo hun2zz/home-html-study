@@ -400,6 +400,7 @@ section.sns .sub-container li .bottom .time .far {
   /* background: orange; */
   padding-right: 10px;
 }
+
 footer {
   border-top: 1px solid #999;
   padding: 30px 0;
@@ -407,12 +408,10 @@ footer {
 footer .inner {
   width: 84%;
   margin: 0 auto;
-  /* border: 1px solid #000; */
 }
 footer .inner .ft-logo {
   float: left;
   width: 14%;
-  /* border: 1px solid #000; */
 }
 footer .inner .ft-logo img {
   width: 100%;
@@ -421,7 +420,6 @@ footer .inner .address {
   float: left;
   margin-left: 100px;
   margin-top: 35px;
-  /* border: 1px solid #000; */
 }
 footer .inner .address li:first-child {
   font-weight: 700;
@@ -434,12 +432,10 @@ footer .inner .address li:last-child {
 footer .inner .list {
   float: right;
   margin-top: 40px;
-  /* border: 1px solid #000; */
 }
 footer .inner .list li {
   float: left;
   margin-left: 80px;
-  /* border: 1px solid #000; */
 }
 footer .inner .list li:last-child {
   font-weight: 700;
