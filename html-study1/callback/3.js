@@ -53,6 +53,8 @@ console.log(hobby);
 
 // 모든 회원의 이름과 계정을 연결해서 배열에 담아줘
 // [ 대길이(abc1234), 빠나나(banana), ... ]
+const nameAccount = userList.map((user) => `${user.userName}(${user.account})`);
+console.log(nameAccount);
 
 console.log("=============================");
 // 서울에 사는 급여가 400만원보다 높은 사람의 이름과 주소만 추출해줘
