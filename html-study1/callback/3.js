@@ -48,6 +48,8 @@ const address = userList.map((user) => user.address);
 console.log(address);
 
 // 회원의 첫번째 취미들만 다 추출해줘
+const hobby = userList.map((user) => user.hobbys[0]);
+console.log(hobby);
 
 // 모든 회원의 이름과 계정을 연결해서 배열에 담아줘
 // [ 대길이(abc1234), 빠나나(banana), ... ]
