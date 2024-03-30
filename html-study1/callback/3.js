@@ -44,6 +44,8 @@ console.log(nameList);
 
 // 회원정보에서 회원의 주소들만 다 추출해서
 // 배열에 담아줘
+const address = userList.map((user) => user.address);
+console.log(address);
 
 // 회원의 첫번째 취미들만 다 추출해줘
 
