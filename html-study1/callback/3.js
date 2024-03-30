@@ -58,3 +58,8 @@ console.log(nameAccount);
 
 console.log("=============================");
 // 서울에 사는 급여가 400만원보다 높은 사람의 이름과 주소만 추출해줘
+const high = userList.filter(
+  (user) => user.address === "서울" && user.salary > 4000000
+);
+
+console.log(high);
