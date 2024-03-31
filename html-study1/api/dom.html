@@ -52,7 +52,7 @@
       //5. id="list1"인 요소에 <li> 요소중
       // 두번째 <li>요소만 선택후 font-style: italic 적용
       const $second = [
-        ...document.querySelectorAll(`#wrap ul li:nth-child(2)`),
+        ...document.querySelectorAll(`#wrap #list1 li:nth-child(2)`),
       ];
       $second[0].style.fontStyle = `italic`;
       //6. id="list1"인 요소에 <li> 요소중  3번째 이전 요소만 선택후
