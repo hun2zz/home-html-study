@@ -29,10 +29,14 @@
       for (const element of $yellow) {
         element.style.backgroundColor = `yellow`;
       }
-d
       //2. id="list1"인 요소에 <li> 요소중
       //   짝수번째 요소만 선택후 배경색상 gray 적용
-
+      const $gray = [
+        ...document.querySelectorAll(`#wrap #list1 li:nth-child(even)`),
+      ];
+      for (const element of $gray) {
+        element.style.backgroundColor = `gray`;
+      }
       //3. id="list1"인 요소에 <li> 요소중
       //  첫번째 <li>요소만 선택후 폰트색상 red 적용
 
