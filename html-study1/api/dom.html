@@ -39,7 +39,10 @@
       }
       //3. id="list1"인 요소에 <li> 요소중
       //  첫번째 <li>요소만 선택후 폰트색상 red 적용
-
+      const $red = [
+        ...document.querySelectorAll(`#wrap #list1 li:first-child`),
+      ];
+      $red[0].style.color = `red`;
       //4. id="list1"인 요소에 <li> 요소중
       //   마지막번째 <li>요소만 선택후 폰트색상 green 적용
 
